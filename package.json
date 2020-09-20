@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.7.4",
+    "next": "^9.2.0",
+    "postcss-import": "^12.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6"
+  }
+}
