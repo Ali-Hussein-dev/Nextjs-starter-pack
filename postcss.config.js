@@ -3,10 +3,8 @@ const purgecss = [
   {
     enabled: true,
     content: [
-      './components/**/*.js',
-      './pages/**/*.js',
-      './components/**/*.jsx',
-      './pages/**/*.jsx',
+      './src/components/**/*.{ts, tsx,js,jsx}',
+      './src/pages/**/*.{ts, tsx,js,jsx}',
     ],
     defaultExtractor: (content) =>
       content.match(/[\w-/:]+(?<!:)/g) || [],
@@ -17,6 +15,8 @@ module.exports = {
     'postcss-import',
     'tailwindcss',
     'autoprefixer',
+    'postcss-flexbugs-fixes',
+    'postcss-preset-env',
     ...(process.env.NODE_ENV === 'production' ? [purgecss] : []),
   ],
 };
