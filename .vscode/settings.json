@@ -1,0 +1,24 @@
+{
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1a2b3c",
+    "terminal.foreground": "#e09887",
+    "terminal.selectionBackground": "#fef8ec",
+    "terminal.black": "#65737e",
+    "terminal.blue": "#0e9bd1",
+    "terminal.brightBlack": "#acacac",
+    "terminal.brightBlue": "#7899ba",
+    "terminal.brightCyan": "#0099ad",
+    "terminal.brightGreen": "#0de1b1",
+    "terminal.brightRed": "#d47186",
+    "terminal.brightWhite": "#fef8ec",
+    "terminal.brightYellow": "#d8cb32",
+    "terminal.brightPurple": "#ab43aa",
+    "terminal.purple": "#928ba6",
+    "terminal.cyan": "#008486",
+    "terminal.green": "#0099ad",
+    "terminal.red": "#ce4559",
+    "terminal.white": "#fef8ec",
+    "terminal.yellow": "#d8cb32"
+  }
+}
